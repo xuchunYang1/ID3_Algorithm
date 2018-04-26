@@ -669,7 +669,7 @@ int main()
 								"car",			// etichetta per classi
 								NULL				// terminatore
 							);*/
-    /*result = id3tree_create( 	dataset_weather,			// puntatore al database
+    result = id3tree_create( 	dataset_weather,			// puntatore al database
 								5,					// totale colonne ( attributi + classi )
 								14,					// totale samples nel database
 								"outlook",			// etichetta per attributo 1
@@ -678,8 +678,8 @@ int main()
 								"wind",				// etichetta per attributo 4
 								"play",			// etichetta per classi
 								NULL				// terminatore
-							);*/
-	result = id3tree_create( 	dataset_lenses,		
+							);
+	/*result = id3tree_create( 	dataset_lenses,		
 							4,					//  cols
 							24,					// rows
 							"age",			
@@ -687,7 +687,7 @@ int main()
 							"astigmatic",			
 							"tearRate",	
 							NULL				// terminatore
-						);					
+						);			*/		
     printf( "Esito: %d\n", result );
 
 

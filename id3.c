@@ -151,11 +151,11 @@ void explain_rules( node_t *node, long cols, struct dsinfo_t *info, char **title
 							}
 							infoptr2 = infoptr2->next;
 						}
-						printf( "se %s = %s ", *( titles + attrb_id ), attrb_name );
+						printf( "IF %s = %s ", *( titles + attrb_id ), attrb_name );
 						if( *( rules_table + i*maxdepth + j+1 ) >= 0 )
-							printf( "e " );
+							printf( "AND " );
 						else
-							printf( "\n\t\t" );
+							printf( "\n" );
 					}
 				}
 			}
